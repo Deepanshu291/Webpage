@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
 
  body{
-     background-color: aqua;
-     margin: 5;
-     padding: 5;
+     /* background-color: aqua; */
+     margin: 0;
+     padding: 0;
  }
 
  .heading{
@@ -23,6 +23,7 @@
    }
    
    .heading p{
+     
      text-align: center;
         background-color: black;
       font-size: 20px;
@@ -34,4 +35,38 @@
       padding: 10px;
       height: auto;
       width: 450px;
+    }
+
+    section{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      position: relative;
+      top: 0;
+    }
+
+     h1{
+       position: sticky;
+      color: aliceblue;
+      transition: 1s;
+      
+    }
+    h1:hover{
+      color: aqua;
+      font-size: 50px;
+    }
+
+    #Home{
+      background-color: blueviolet;
+      position: sticky;
+      top: 0;
+      left: 0;
+    }
+
+    #about{
+      background-color: aqua;
+    }
+
+    #product{
+      background-color:  brown;
     }
